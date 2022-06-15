@@ -5,10 +5,12 @@
 }
 body {
   background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+  font-family: 'Cormorant', serif;
 }
 .header {
   text-align: center;
-  color: green;
+  color: darkgreen;
+  border: 10px dotted purple;
 }
 .content {
   padding: 3%;
@@ -30,4 +32,9 @@ p {
 }
 td {
   padding: 1%;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
